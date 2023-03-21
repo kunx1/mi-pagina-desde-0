@@ -12,9 +12,5 @@ btn.addEventListener('click', ()=>{
 
 
 
-// const menu = document.querySelector('.menu-button')
 
-// menu.addEventListener('click',() =>{
-// menu.classList.toggle("activox")
-// })
 

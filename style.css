@@ -457,7 +457,7 @@ align-items: center;
  .contacto-container{     /*contenerdor  */
     
     display: flex;
-    /* margin: 50px 50px 0; */
+    flex-direction: column;
     gap: 60px;
   
 }

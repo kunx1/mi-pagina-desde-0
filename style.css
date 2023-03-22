@@ -643,12 +643,12 @@ footer {
 } */
 
 .home-slide{
-font-size: 1.7rem;
+font-size: 2rem;
 margin-bottom: 5px;
 }
 
 .one{
-    background-color: #0051ffd2;
+    background-color: #0853f6d2;
    
     border-radius: 3px;
     padding:0 10px;
@@ -662,9 +662,9 @@ margin-bottom: 5px;
 }
      
 .home-text h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    color: var(--text-color);
+    
     line-height: 1;
     margin: 0 0 8px;
 
@@ -673,16 +673,16 @@ margin-bottom: 5px;
 .home-text h3 {
     
     margin: 0;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1;
 }
 
 .home-text p {
     
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .home-btn{
@@ -692,7 +692,7 @@ margin-bottom: 5px;
     background: #0051ff;
     border-radius: 5px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;

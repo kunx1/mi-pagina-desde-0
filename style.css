@@ -9,6 +9,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 a{
     color: inherit;
 }
@@ -222,8 +224,8 @@ margin-bottom: 10px;
     display: flex;
     justify-content: center;
     width: 100%;
-    
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
+    margin-bottom: 25px;
     -moz-animation: bounce 3s infinite;
     -webkit-animation: bounce 3s infinite;
     animation: bounce 2.5s infinite;
@@ -297,7 +299,7 @@ position: relative;
 }
 
 .about-btn:hover {
-    transform: scale(1.5) ;
+    transform: scale(1.2) ;
 }
 
 .about-container{
@@ -650,13 +652,6 @@ margin-bottom: 5px;
     border-radius: 3px;
     padding:0 10px;
 }
-
-.two {
-    display: inline-block;
-    
-    
-    font-weight: 500;
-}
      
 .home-text h1 {
     font-size: 3.5rem;
@@ -701,38 +696,65 @@ margin-bottom: 5px;
 }
 
 .home-img{
-    width: 500px;
+    width: 510px;
     height: auto;
     transform: scaleX(-1);
 }
 
 
-    
-
-
-
 /* About */
-   .about{
-    margin: 0 10px;
-    
+.about{
+    /* margin:3rem 4.4rem 0 4.4rem; */
+    margin: 0 5px;
 }
 
 .about-h1{
-    font-size: 4rem;
-    margin-bottom: 35px;
+text-align: center;
+/* font-size: 4.5rem; valor original */
+font-size: 4rem; 
+margin-bottom: 40px;
+}
+
+.about-text h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    font-size: 1.8rem;
     
-    }
+}
+
+.about-btn{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    border: none;
+    background: #0051ff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease ;
+}
+
 
 .about-container{
     display: flex;
     flex-direction: column;
-    
+    gap: 35px;
+}
+
+.about-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 
-.about-img{
-    display: flex;
-    justify-content: center;
+.about-img img{
+    width: 400px;
+    height: 450px; 
+    object-fit: cover;
 }
 
 /* Services */

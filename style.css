@@ -225,7 +225,7 @@ margin-bottom: 10px;
     justify-content: center;
     width: 100%;
     /* margin-bottom: 45px; */
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     -moz-animation: bounce 3s infinite;
     -webkit-animation: bounce 3s infinite;
     animation: bounce 2.5s infinite;
@@ -758,22 +758,66 @@ align-items: center;
 }
 
 /* Services */
-.services-container {
-    display: flex;
-    flex-direction: column;
+
+.services{
+    
+    /* margin: 3rem 2.5rem 0 2.5rem; */
+    margin: 3rem 5px 0 5px;
 }
 
 .services-container{
-    
-    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 30px;
 }
 
 .services-box{
-    margin: 0 10px;
+    
     border-radius: 10px;
-    
-    
-    margin: 0 10px;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
 }
+
+.s-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.s-icons img{
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.services-box h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services-box p{
+    font-size: 1.4rem;
+    /* font-size: 1.8rem; este codigo es de about responsiv */
+}
+
+
+
+.services-btn{
+    display: inline-block;
+    background: #0051ff;
+    color: #fff;
+    font-size: 1.7rem;
+
+    padding:10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+
 
 }

@@ -868,8 +868,21 @@ flex-direction: column;
    
   }
   
-  /* formulario res */
-  form {
-    margin: 0 40px;
+  /* Res Contacto */
+  .contacto{
+    /* margin: 3rem 3rem 0 3rem; */
+    /* margin-top: 3rem; */
+}
+
+fieldset {
+    
   }
+
+  .contacto-container{     /*contenerdor  */
+    
+    display: flex;
+    
+    gap: 30px;
+  
+}
 }

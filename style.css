@@ -474,14 +474,14 @@ align-items: center;
 }
 
 .izquierda-contacto p{
-    font-size: 20px;
+    font-size: 1.7rem;
     letter-spacing: 2px;
 }
 
 .contact-icons{
     display: flex;
     
-    font-size: 60px;
+    font-size: 4rem;
     margin-top: 30px;
     }
 
@@ -493,7 +493,8 @@ align-items: center;
   .contact-icons i:hover{
     
     color: #0051ff;
-    
+    transform: scale(1.2);
+    transition-duration: 0.3s;
   }
 
 .izquierda-contacto{
@@ -508,6 +509,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     }
 
 .form-title{
@@ -519,28 +521,30 @@ form{
   
   fieldset{
     width: 400px;
-    height: 450px;
+    height: 490px;
   
     border-radius: 10px;
+    
   }
   
   .box label{
     margin-left: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5rem;
   }
   
   .box input{
     width: 400px;
     height: 30px;
     margin: 4px;
-    
+    font-size: 1rem;
   }
   
   .box textarea{
     resize: none;
     width: 400px;
     margin: 4px;
+    font-size: 1.1rem;
   }
   
   .box-button{
@@ -570,7 +574,7 @@ footer {
     background-color: #f2f2f2;
     color: #333;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     position: absolute;
     width: 100%;
     margin-top: 50px;
@@ -578,12 +582,12 @@ footer {
   
   footer p {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.8rem;
   }
   
 
 
-/* Parte Responsiva */
+/*  Responsiva Parte*/
 @media screen and (max-width:480px){
     /* body{
         overflow:hidden;
@@ -634,7 +638,7 @@ footer {
     
    }
 
-   /* Home */
+   /* Home Res*/
    .home-container{
     display: flex;
     flex-direction: column;
@@ -705,7 +709,7 @@ margin-bottom: 5px;
 
 .home-img{
     width: 100%;
-    height: auto;
+    height: 20rem;
     object-fit: cover;
     transform: scaleX(-1);
 }
@@ -842,8 +846,9 @@ flex-direction: column;
 }
 
 .izquierda-contacto h2{
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     /* margin-bottom: 20px; */
+    text-align: center;
     margin: 0 20px 20px 20px; 
 }
 
@@ -862,5 +867,9 @@ flex-direction: column;
     margin-right: 40px;
    
   }
-
+  
+  /* formulario res */
+  form {
+    margin: 0 40px;
+  }
 }

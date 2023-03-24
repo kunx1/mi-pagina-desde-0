@@ -465,7 +465,7 @@ align-items: center;
 }
 
 .izquierda-contacto h2{
-    font-size: 45px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -824,7 +824,7 @@ margin: 3rem 5px 0 5px;
 
 /* Contacto */
 .contacto{
-    margin: 3rem 5px 0 5px;
+    margin: 3rem 8px 0 8px;
 }
 .contacto-container{
 display: flex;

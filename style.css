@@ -709,13 +709,13 @@ margin-bottom: 5px;
 
 .home-img{
     width: 100%;
-    height: 3950px;
+    height: 390px;
     object-fit: cover;
     
 }
 
 
-/* About Res*/
+/* R About*/
 .about{
     /* margin:3rem 4.4rem 0 4.4rem; */
     margin: 0 5px;
@@ -891,7 +891,7 @@ fieldset{
     height: 495px;
 }
 .box input{
-    width: 23.2rem;
+    width: 23.5rem;
     height: 30px;
     margin: 4px;
     font-size: 1rem;
@@ -899,7 +899,7 @@ fieldset{
   
   .box textarea{
     resize: none;
-    width: 23.2rem;
+    width: 23.5rem;
     margin: 3px;
     font-size: 1.1rem;
   }

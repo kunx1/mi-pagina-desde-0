@@ -729,17 +729,17 @@ margin-bottom: 5px;
 .about-h1{
 text-align: center;
 /* font-size: 4.5rem; valor original */
-font-size: 3.8rem; 
+font-size: 3.6rem; 
 margin-bottom: 40px;
 }
 
 .about-text h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
 .about-text p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin:0 5px;
 }
 

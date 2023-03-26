@@ -595,7 +595,7 @@ footer {
 
 
 /*  Responsiva Parte*/
-@media screen and (max-width:720px){
+@media screen and (max-width:920px){
     /* body{
         overflow:hidden;
       } */
@@ -896,7 +896,7 @@ flex-direction: column;
 
 /* formulario */
 fieldset{
-    margin: 0 5px;
+    margin: 0 4px;
     height: 481px;
 }
 .box input{

@@ -701,7 +701,7 @@ margin-bottom: 5px;
     background: #0051ff;
     border-radius: 5px;
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
@@ -729,22 +729,22 @@ margin-bottom: 5px;
 .about-h1{
 text-align: center;
 /* font-size: 4.5rem; valor original */
-font-size: 3.6rem; 
+font-size: 3.5rem; 
 margin-bottom: 40px;
 }
 
 .about-text h2{
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     margin-bottom: 20px;
 }
 
 .about-text p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin:0 5px;
 }
 
 .about-btn{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-top: 30px;
     border: none;
     background: #0051ff;

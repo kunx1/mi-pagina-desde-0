@@ -39,9 +39,9 @@ ul{
 
 li{
     margin: 0 20px;
-    font-size: 34px;
+    font-size: 38px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 520;
 }
 
 li:hover{
@@ -52,14 +52,19 @@ li:first-child {
    color: #0051ff;
   }
 
+
+
+
+  .logo{
+    font-size: 45px;
+    cursor: pointer;
+}
+
 header .logo span{
     color: #0051ff;
 }
 
-.logo{
-    font-size: 43px;
-    cursor: pointer;
-}
+
 
 /* menu Hambuegueza */
 .menu-button{
@@ -588,7 +593,7 @@ footer {
 
 
 /*  Responsiva Parte*/
-@media screen and (max-width:480px){
+@media screen and (max-width:720px){
     /* body{
         overflow:hidden;
       } */
@@ -891,7 +896,7 @@ fieldset{
     height: 495px;
 }
 .box input{
-    width: 23.6rem;
+    width: 23.8rem;
     height: 30px;
     margin: 4px;
     font-size: 1rem;
@@ -899,7 +904,7 @@ fieldset{
   
   .box textarea{
     resize: none;
-    width: 23.6rem;
+    width: 23.8rem;
     margin: 3px;
     font-size: 1.1rem;
   }

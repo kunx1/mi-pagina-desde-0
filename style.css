@@ -709,7 +709,7 @@ margin-bottom: 5px;
 
 .home-img{
     width: 100%;
-    height: 390px;
+    height: 380px;
     object-fit: cover;
     
 }
@@ -891,7 +891,7 @@ fieldset{
     height: 495px;
 }
 .box input{
-    width: 23.5rem;
+    width: 23.6rem;
     height: 30px;
     margin: 4px;
     font-size: 1rem;
@@ -899,7 +899,7 @@ fieldset{
   
   .box textarea{
     resize: none;
-    width: 23.5rem;
+    width: 23.6rem;
     margin: 3px;
     font-size: 1.1rem;
   }

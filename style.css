@@ -509,7 +509,7 @@ align-items: center;
    justify-content: center;
 }
 
-
+/* formulario */
 form{
     display: flex;
     justify-content: center;
@@ -744,7 +744,7 @@ margin-bottom: 40px;
 }
 
 .about-btn{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-top: 30px;
     border: none;
     background: #0051ff;
@@ -896,7 +896,8 @@ fieldset{
     height: 495px;
 }
 .box input{
-    width: 23.6rem;
+    /* width: 23.5rem; */
+    width: 98%;
     height: 30px;
     margin: 4px;
     font-size: 1rem;
@@ -904,7 +905,8 @@ fieldset{
   
   .box textarea{
     resize: none;
-    width: 23.6rem;
+    /* width: 23.5rem; */
+    width: 98%;
     margin: 3px;
     font-size: 1.1rem;
   }

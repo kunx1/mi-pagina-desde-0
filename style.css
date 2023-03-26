@@ -459,19 +459,25 @@ align-items: center;
     margin: 3rem 3rem 0 3rem;
 }
 
+.contacto-container{     
+    display: flex;
+    gap: 60px;
+    /* margin: 0 3rem; */
+  }
 
+  .izquierda-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+ }
 
 .contacto-title span{
     color: #0051ff;
 }
 
- .contacto-container{     /*contenerdor  */
-    
-    display: flex;
-    
-    gap: 60px;
-  
-}
+ 
 
 .izquierda-contacto h2{
     font-size: 2.5rem;
@@ -483,17 +489,18 @@ align-items: center;
     letter-spacing: 2px;
 }
 
-.contact-icons{
-    display: flex;
-    
-    font-size: 4rem;
-    margin-top: 30px;
-    }
 
-.contact-icons a {
-    margin-right: 60px;
-   
-  }
+
+    .contact-icons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 4rem;
+        margin-top: 30px;
+      }
+      
+
+
 
   .contact-icons i:hover{
     
@@ -502,12 +509,7 @@ align-items: center;
     transition-duration: 0.3s;
   }
 
-.izquierda-contacto{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-}
+
 
 /* formulario */
 form{
@@ -526,7 +528,7 @@ form{
   
   fieldset{
     width: 400px;
-    height: 490px;
+    height: 516px;
   
     border-radius: 10px;
     
@@ -535,21 +537,21 @@ form{
   .box label{
     margin-left: 10px;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   
   .box input{
     width: 400px;
-    height: 30px;
+    height: 40px;
     margin: 4px;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   
   .box textarea{
     resize: none;
     width: 400px;
     margin: 4px;
-    font-size: 1.1rem;
+    font-size: 1.34rem;
   }
   
   .box-button{
@@ -729,7 +731,7 @@ margin-bottom: 5px;
 .about-h1{
 text-align: center;
 /* font-size: 4.5rem; valor original */
-font-size: 3.5rem; 
+font-size: 3.3rem; 
 margin-bottom: 40px;
 }
 
@@ -868,11 +870,13 @@ flex-direction: column;
     margin-top: 30px;
     }
 
-.contact-icons a {
+/* .contact-icons a {
     margin-right: 40px;
    
-  }
+  } */
   
+
+
   /* Res Contacto */
   .contacto{
     /* margin: 3rem 3rem 0 3rem; */
@@ -893,14 +897,14 @@ flex-direction: column;
 /* formulario */
 fieldset{
     margin: 0 5px;
-    height: 495px;
+    height: 481px;
 }
 .box input{
     /* width: 23.5rem; */
     width: 98%;
-    height: 30px;
+    height: 32px;
     margin: 4px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
   .box textarea{
@@ -908,7 +912,7 @@ fieldset{
     /* width: 23.5rem; */
     width: 98%;
     margin: 3px;
-    font-size: 1.1rem;
+    font-size: 1.24rem;
   }
 
 }

@@ -146,9 +146,7 @@ header .logo span{
     margin: 40px 50px;
 }
 
-/* .about-text{
- margin:0 50px; 
-} */
+
 
 /* .img{
     
@@ -215,6 +213,8 @@ margin-bottom: 10px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
+    /* border: none;
+    cursor: pointer; */
   
 }
 
@@ -595,7 +595,7 @@ footer {
 
 
 /*  Responsiva Parte*/
-@media screen and (max-width:920px){
+@media screen and (max-width:480px){
     /* body{
         overflow:hidden;
       } */
@@ -657,6 +657,10 @@ footer {
 
 .home-text{
     margin:0 20px ;
+    
+        
+    
+      
 }
 
 
@@ -696,6 +700,10 @@ margin-bottom: 5px;
     margin: 20px 0;
 }
 
+.home-button{
+    
+}
+
 .home-btn{
     
     display: inline-block;
@@ -708,6 +716,7 @@ margin-bottom: 5px;
     font-weight: 600;
     transition: all .45s ease;
   
+    
 }
 
 .home-btn:hover {
@@ -724,7 +733,11 @@ margin-bottom: 5px;
 
 /* R About*/
 .about{
-    /* margin:3rem 4.4rem 0 4.4rem; */
+    /* margin:3rem 4.4rem 0 4.4rem;*/
+    margin: 0 ; 
+}
+
+.about-text{
     margin: 0 5px;
 }
 
@@ -736,7 +749,7 @@ margin-bottom: 40px;
 }
 
 .about-text h2{
-    font-size: 1.65rem;
+    font-size: 1.7rem;
     margin-bottom: 20px;
 }
 
@@ -853,14 +866,14 @@ flex-direction: column;
 }
 
 .izquierda-contacto h2{
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     /* margin-bottom: 20px; */
     text-align: center;
     margin: 0 20px 20px 20px; 
 }
 
 .izquierda-contacto p{
-    font-size: 1.7rem;
+    font-size: 1.3rem;;
 }
 
 .contact-icons{
@@ -869,15 +882,9 @@ flex-direction: column;
     font-size: 60px;
     margin-top: 30px;
     }
-
-/* .contact-icons a {
-    margin-right: 40px;
-   
-  } */
   
 
-
-  /* Res Contacto */
+  /* R Contacto */
   .contacto{
     /* margin: 3rem 3rem 0 3rem; */
     /* margin-top: 3rem; */
@@ -886,7 +893,6 @@ flex-direction: column;
 
 
   .contacto-container{     /*contenerdor  */
-    
     display: flex;
     
     gap: 30px;
@@ -894,10 +900,10 @@ flex-direction: column;
 }
 
 
-/* formulario */
+/*r formulario */
 fieldset{
     margin: 0 4px;
-    height: 481px;
+    height: 482px;
 }
 .box input{
     /* width: 23.5rem; */
@@ -916,3 +922,4 @@ fieldset{
   }
 
 }
+

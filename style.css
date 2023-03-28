@@ -287,7 +287,7 @@ position: relative;
 }
 
 .about-text h2{
-    font-size: 2.5ren;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -654,13 +654,13 @@ footer {
 }
 
 .home-text{
-    margin:0 20px ;
+    margin:0 40px ;
     
 }
 
 
 .home-slide{
-font-size: 2rem;
+font-size: 2.4rem;
 margin-bottom: 5px;
 }
 
@@ -672,7 +672,7 @@ margin-bottom: 5px;
 }
      
 .home-text h1 {
-    font-size: 3.5rem;
+    font-size: 3.9rem;
     font-weight: 700;
     
     line-height: 1;
@@ -683,14 +683,15 @@ margin-bottom: 5px;
 .home-text h3 {
     
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     font-weight: 700;
     line-height: 1;
 }
 
 .home-text p {
     
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; valor 480   +2 aqui en los 2 de arriba +4*/
+    font-size: 2rem;
     line-height: 1;
     margin: 20px 0;
 }
@@ -733,7 +734,7 @@ margin-bottom: 5px;
 }
 
 .about-text{
-    margin: 0 5px;
+    margin: 0 15px;
 }
 
 .about-h1{
@@ -749,12 +750,12 @@ margin-bottom: 40px;
 }
 
 .about-text p{
-    font-size: 10000px;  /*esto no anda */
+    font-size: 1.45rem;  /*esto no anda */
     margin:0 5px;
 }
 
 .about-btn{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 30px;
     border: none;
     background: #0051ff;

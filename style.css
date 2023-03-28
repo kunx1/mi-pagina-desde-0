@@ -578,7 +578,8 @@ form{
 
 /* footer */
 footer {
-    background-color: #f2f2f2;
+    background-color:  rgb(235, 235, 235);
+
     color: #333;
     text-align: center;
     padding: 1rem;
@@ -594,7 +595,7 @@ footer {
   
 
 
-/*  Responsiva Parte*/
+/*  Parte responsiv*/
 @media screen and (max-width:480px){
     /* body{
         overflow:hidden;
@@ -700,9 +701,7 @@ margin-bottom: 5px;
     margin: 20px 0;
 }
 
-.home-button{
-    
-}
+
 
 .home-btn{
     
@@ -837,6 +836,339 @@ align-items: center;
 }
 
 
+
+.services-btn{
+    display: inline-block;
+    background: #0051ff;
+    color: #fff;
+    font-size: 1.7rem;
+
+    padding:10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* youtube Res*/
+.youtube{
+margin: 3rem 5px 0 5px;
+}
+
+
+/* Contacto Res*/
+.contacto{
+    margin: 3rem 8px 0 8px;
+}
+.contacto-container{
+display: flex;
+flex-direction: column;
+}
+
+.izquierda-contacto h2{
+    font-size: 1.7rem;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    margin: 0 20px 20px 20px; 
+}
+
+.izquierda-contacto p{
+    font-size: 1.3rem;;
+}
+
+.contact-icons{
+    display: flex;
+    
+    font-size: 60px;
+    margin-top: 30px;
+    }
+  
+
+  /* R Contacto */
+  .contacto{
+    /* margin: 3rem 3rem 0 3rem; */
+    /* margin-top: 3rem; */
+}
+
+
+
+  .contacto-container{     /*contenerdor  */
+    display: flex;
+    
+    gap: 30px;
+  
+}
+
+
+/*r formulario */
+fieldset{
+    margin: 0 4px;
+    height: 482px;
+}
+.box input{
+    /* width: 23.5rem; */
+    width: 98%;
+    height: 32px;
+    margin: 4px;
+    font-size: 1.2rem;
+  }
+  
+  .box textarea{
+    resize: none;
+    /* width: 23.5rem; */
+    width: 98%;
+    margin: 3px;
+    font-size: 1.24rem;
+  }
+
+}
+
+
+    /* r1 580px */
+@media screen and (max-width:850px){
+   
+
+    .menu-button{
+        display: block;
+        cursor: pointer;
+    }
+
+    nav{
+        
+        display: none; 
+         
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        z-index: 1;
+    }
+
+    nav.activo{
+        display: block; 
+        animation: muestraMenu 0.3s ease-in-out both;
+    }
+
+   ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100vh - 86px);
+    /* opacity: 0; */
+   }
+
+ 
+   @keyframes muestraMenu {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+ 
+   li{
+    font-size: 35px;
+    font-weight: 550;
+    
+   }
+
+   /* R1 Home*/
+   .home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  20px;
+    margin: 20px 0;
+}
+
+.home-text{
+    margin:0 20px ;
+    
+        
+    
+      
+}
+
+
+.home-slide{
+font-size: 2rem;
+margin-bottom: 5px;
+}
+
+.one{
+    background-color: #0e58f5d2;
+   
+    border-radius: 3px;
+    padding:0 10px;
+}
+     
+.home-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    
+    line-height: 1;
+    margin: 0 0 8px;
+
+}
+
+.home-text h3 {
+    
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.home-text p {
+    
+    font-size: 1.8rem;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.home-button{
+    text-align: center;
+}
+
+.home-btn{
+    
+    display: inline-block;
+    padding: 12px;
+    background: #0051ff;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+  
+    
+}
+
+.home-btn:hover {
+    transform: scale(0.9);
+}
+
+.home-img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    
+}
+
+
+/* R1 About*/
+.about{
+    /* margin:3rem 4.4rem 0 4.4rem;*/
+    margin: 0 ; 
+}
+
+.about-text{
+    margin: 0 5px;
+}
+
+.about-h1{
+text-align: center;
+/* font-size: 4.5rem; valor original */
+font-size: 3.3rem; 
+margin-bottom: 40px;
+}
+
+.about-text h2{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    font-size: 1.3rem;
+    margin:0 5px;
+}
+
+.about-btn{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    border: none;
+    background: #0051ff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease ;
+}
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.about-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.about-img{
+    text-align: center;
+}
+
+.about-img img{
+    width: 70%;
+    height: 400px; 
+    
+}
+
+/* R1 Services */
+
+.services{
+    
+    /* margin: 3rem 2.5rem 0 2.5rem; */
+    margin: 3rem 50px 0 50px;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 30px;
+}
+
+.services-box{
+    
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+
+.s-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.s-icons img{
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.services-box h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services-box p{
+    font-size: 1.4rem;
+    /* font-size: 1.8rem; este codigo es de about responsiv */
+}
+
+.services-button{
+    text-align: center;
+}
 
 .services-btn{
     display: inline-block;

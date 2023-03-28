@@ -638,7 +638,7 @@ footer {
 
  
    li{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 550;
     
    }
@@ -653,9 +653,13 @@ footer {
     margin: 20px 0;
 }
 
+.logo{
+    font-size: ;
+}
+
 .home-text{
     margin:0 40px ;
-    
+    text-align: center;
 }
 
 
@@ -707,7 +711,7 @@ margin-bottom: 5px;
     background: #0051ff;
     border-radius: 5px;
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
@@ -752,6 +756,7 @@ margin-bottom: 40px;
 .about-text p{
     font-size: 1.45rem;  /*esto no anda */
     margin:0 5px;
+    
 }
 
 .about-btn{
@@ -833,6 +838,7 @@ align-items: center;
 .services-box p{
     font-size: 1.4rem;
     /* font-size: 1.8rem; este codigo es de about responsiv */
+    line-height: 1.3;
 }
 
 .services-button{
@@ -857,7 +863,7 @@ margin: 3rem 5px 0 5px;
 }
 
 
-/* Contacto Res*/
+/* R1 Contacto */
 .contacto{
     margin: 3rem 8px 0 8px;
 }
@@ -867,14 +873,14 @@ flex-direction: column;
 }
 
 .izquierda-contacto h2{
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     /* margin-bottom: 20px; */
     text-align: center;
     margin: 0 20px 20px 20px; 
 }
 
 .izquierda-contacto p{
-    font-size: 1.3rem;;
+    font-size: 1.45rem;;
 }
 
 .contact-icons{
@@ -989,7 +995,7 @@ fieldset{
 
 .home-text{
     margin:0 20px ;
-        
+    text-align: left; 
 }
 
 
